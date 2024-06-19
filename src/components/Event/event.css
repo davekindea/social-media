@@ -1,0 +1,80 @@
+.Events {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .today-event, .Upcoming-event {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .Add-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .add-more-event{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    margin-top: 20px;
+
+  }
+  
+  .Add-more h1 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .Add-more form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .Add-more form input[type="text"], .Add-more form button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .Add-more form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Add-more form button:hover {
+    background-color: #0056b3;
+  }
+  
+  
